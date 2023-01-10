@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("../assets/background-image.jpg");
+  background-size: cover;
+}
+.body .background-opacity {
+  height: auto;
+  width: 100%;
+  background: linear-gradient(to right, rgb(0, 0, 0), transparent);
+}
+.body .background-opacity .header {
+  height: 7rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+.body .background-opacity .header .logo {
+  height: 5.5rem;
+  width: auto;
+}
+.body .background-opacity .header .language {
+  height: 2.5rem;
+  width: 8rem;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.5;
+  border: 1px solid rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: lighter;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  padding-left: 0.3rem;
+}
+.body .background-opacity .header .language:hover {
+  cursor: pointer;
+}
+.body .background-opacity .section {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body .background-opacity .section .article-1 {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.body .background-opacity .section .article-1 .div-films {
+  height: auto;
+  width: 600px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-left: 5rem;
+}
+.body .background-opacity .section .article-1 .div-films .img-title {
+  height: 20rem;
+  width: auto;
+  margin: 0;
+  filter: drop-shadow(0px 0px 3px);
+}
+.body .background-opacity .section .article-1 .div-films .text, .body .background-opacity .section .article-1 .div-films .gender {
+  font-size: 1rem;
+  font-weight: lighter;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  margin: 0.2;
+  transform: translateY(-5rem);
+}
+.body .background-opacity .section .article-1 .div-films .gender, .body .background-opacity .section .article-1 .div-films .stars {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.body .background-opacity .section .article-1 .div-films .gender .stars, .body .background-opacity .section .article-1 .div-films .stars .stars {
+  color: rgb(239, 171, 0);
+}
+.body .background-opacity .section .article-1 .div-films .next-back-btns {
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-5rem);
+}
+.body .background-opacity .section .article-1 .div-films .next-back-btns .back, .body .background-opacity .section .article-1 .div-films .next-back-btns .next {
+  height: 2rem;
+  width: auto;
+  filter: invert(1);
+  transition: 0.2s;
+}
+.body .background-opacity .section .article-1 .div-films .next-back-btns .back:hover, .body .background-opacity .section .article-1 .div-films .next-back-btns .next:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.body .background-opacity .section .article-1 .div-films .next-back-btns .back {
+  margin-left: 0;
+  margin-right: 1rem;
+  transform: rotate(180deg);
+}
+.body .background-opacity .section .article-1 .div-login {
+  height: 30rem;
+  width: 20rem;
+  background-color: rgb(0, 0, 0);
+  margin-right: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 2.8rem;
+  padding-right: 2.8rem;
+  border-radius: 0.4rem;
+}
+.body .background-opacity .section .article-1 .div-login .title-login {
+  font-size: 2rem;
+  font-weight: lighter;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+}
+.body .background-opacity .section .article-1 .div-login .input {
+  height: 2.2rem;
+  width: 100%;
+  background-color: rgb(47, 47, 47);
+  border: none;
+  border-radius: 0.2rem;
+  font-size: 0.8rem;
+  font-weight: lighter;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  margin: 0.6rem;
+}
+.body .background-opacity .section .article-1 .div-login .input::-moz-placeholder {
+  color: rgb(189, 189, 189);
+  font-size: 0.8rem;
+}
+.body .background-opacity .section .article-1 .div-login .input:-ms-input-placeholder {
+  color: rgb(189, 189, 189);
+  font-size: 0.8rem;
+}
+.body .background-opacity .section .article-1 .div-login .input::placeholder {
+  color: rgb(189, 189, 189);
+  font-size: 0.8rem;
+}
+.body .background-opacity .section .article-1 .div-login .submit {
+  height: 2.2rem;
+  width: 100%;
+  background-color: rgb(188, 37, 37);
+  font-size: 0.8rem;
+  font-weight: bolder;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  margin: 0.6rem;
+  border-radius: 0.2rem;
+  transition: all 0.2s;
+}
+.body .background-opacity .section .article-1 .div-login .submit:hover {
+  cursor: pointer;
+  background-color: rgb(159, 159, 159);
+  color: rgb(188, 37, 37);
+}
+.body .background-opacity .section .article-1 .div-login .first {
+  font-size: 0.8rem;
+  font-weight: lighter;
+  font-family: sans-serif;
+  color: rgb(108, 108, 108);
+}
+.body .background-opacity .section .article-1 .div-login .subscribe {
+  height: 2.2rem;
+  width: 60%;
+  background-color: transparent;
+  border: 1px solid rgb(188, 37, 37);
+  font-size: 0.8rem;
+  font-weight: lighter;
+  font-family: sans-serif;
+  color: rgb(108, 108, 108);
+  transition: all 0.2s;
+}
+.body .background-opacity .section .article-1 .div-login .subscribe:hover {
+  cursor: pointer;
+  background-color: rgb(188, 37, 37);
+  color: rgb(255, 255, 255);
+}
+.body .footer {
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(14, 14, 14);
+}
+.body .footer .copyright {
+  font-size: 0.8rem;
+  font-weight: lighter;
+  font-family: sans-serif;
+  color: rgb(133, 133, 133);
+}/*# sourceMappingURL=netflix.css.map */
